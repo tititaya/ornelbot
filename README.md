@@ -37,14 +37,16 @@ streamlit run app.py
 
 ### 🔗 Liens utiles
 
--  ![Streamlit Documentation](https://docs.streamlit.io/)
--  ![Groq API Reference](https://console.groq.com/docs)
--  ![CSS Styling dans Streamlit](https://docs.streamlit.io/develop/concepts/layout-and-style/customizing)
--  ![Python `os` module](https://docs.python.org/3/library/os.html)
--  ![Python `dotenv`](https://pypi.org/project/python-dotenv/)
--  ![Pillow (PIL) for image handling](https://pillow.readthedocs.io/)
--  ![GitHub Actions](https://docs.github.com/en/actions)
--  ![LLaMA 3 Model (Groq)](https://www.groq.com/blog/llama3-now-available-on-groqcloud)
+### 🔗 Liens utiles
+
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Groq API Reference](https://console.groq.com/docs)
+- [CSS Styling dans Streamlit](https://docs.streamlit.io/develop/concepts/layout-and-style/customizing)
+- [Python `os` module](https://docs.python.org/3/library/os.html)
+- [Python `dotenv`](https://pypi.org/project/python-dotenv/)
+- [Pillow (PIL) for image handling](https://pillow.readthedocs.io/)
+- [GitHub Actions](https://docs.github.com/en/actions)
+- [LLaMA 3 Model (Groq)](https://www.groq.com/blog/llama3-now-available-on-groqcloud)
 
 ---
 
@@ -85,5 +87,5 @@ Le bot utilise le fichier `profile.json` pour adapter :
 **Ornel Rony DIFFO**  
 Étudiant en M1 à l’ESIEA, passionné par les systèmes embarqués, l’IA, la data et la supervision.
 
--  ![LinkedIn](https://www.linkedin.com/in/ornel-rony-d-01737b267/)
--  ![GitHub](https://github.com/tititaya)
+-  [LinkedIn](https://www.linkedin.com/in/ornel-rony-d-01737b267/)
+-  [GitHub](https://github.com/tititaya)
