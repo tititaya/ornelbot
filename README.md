@@ -1,31 +1,34 @@
-#  OrnelBot – Chatbot personnel avec Streamlit & Groq
+# 🤖 OrnelBot – Chatbot personnel avec Streamlit & Groq
 
-Bienvenue sur **OrnelBot**, un assistant intelligent développé avec ❤️ par Ornel Rony DIFFO.  
-Il s'agit d'un chatbot conversationnel personnalisable, stylisé et déployable via Streamlit.
+[![CI/CD](https://github.com/tititaya/ornelbot/actions/workflows/main.yml/badge.svg)](https://github.com/tititaya/ornelbot/actions)
 
-![CI/CD](https://github.com/tititaya/ornelbot/actions/workflows/python-app.yml/badge.svg)
-
----
-
-## Objectif
-
-Créer une interface simple et responsive pour interagir avec une IA basée sur LLaMA 3 via l'API de Groq, avec un style inspiré de ChatGPT, et un avatar personnalisé représentant Ornel.
+Bienvenue sur **OrnelBot**, un assistant intelligent développé avec ❤️ par **Ornel Rony DIFFO**.  
+Ce chatbot est un projet personnel interactif, stylisé avec CSS, propulsé par l'API **Groq** (LLaMA 3) et conçu avec **Streamlit**.
 
 ---
 
-##  Fonctionnalités
+## 🎯 Objectif
 
--  Interface conversationnelle (UI stylisée avec CSS)
--  Historique des échanges (mémoire temporaire)
-- ⚙️ Réponses générées avec **Groq API** (`llama3-70b-8192`)
--  Avatar personnalisé dans les réponses du bot
-- 🔗 Liens vers les profils **GitHub** et **LinkedIn**
--  Footer dynamique et inspirant
--  Profil dynamique avec `profile.json`
+Créer une interface responsive et interactive pour permettre à un visiteur de poser des questions à une IA représentant Ornel.  
+L'interface se veut claire, fluide et personnalisée, avec un style inspiré de ChatGPT.
 
 ---
 
-##  Démo locale
+## 🧱 Fonctionnalités
+
+- 💬 Interface conversationnelle stylisée
+- 🔁 Mémoire temporaire des échanges (stateless avec session)
+- 🧠 Génération des réponses via Groq `llama3-70b-8192`
+- 🧍‍♂️ Avatar centré, avec affichage dans les réponses
+- 🌐 Liens vers les profils [GitHub](https://github.com/tititaya) et [LinkedIn](https://www.linkedin.com/in/ornel-rony-d-01737b267/)
+- ⚡ Footer dynamique et citation personnelle
+- 🧪 Workflow CI/CD GitHub Actions intégré
+
+---
+
+## 🚀 Démo
+
+Lancer l'application en local :
 
 ```bash
 git clone git@github.com:tititaya/ornelbot.git
@@ -33,31 +36,49 @@ cd ornelbot
 pip install -r requirements.txt
 streamlit run app.py
 
-## Documentation
+ornelbot/
+│
+├── app.py                  # Application principale
+├── profile.json            # Profil d’Ornel (bio, vision, etc.)
+├── .env                    # Clé API Groq (non versionné)
+│
+├── core/
+│   ├── groq_client.py      # Appel à l'API Groq
+│   └── prompt_builder.py   # Construction des prompts
+│
+├── assets/
+│   └── avatar.png          # Avatar affiché à l'écran
+│
+├── style/
+│   └── style.css           # Personnalisation CSS
+│
+└── README.md               # Fichier de présentation
+
+
+
+## 📚 Documentation
 
 ### 🔗 Liens utiles
 
-### 🔗 Liens utiles
-
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [Groq API Reference](https://console.groq.com/docs)
-- [CSS Styling dans Streamlit](https://docs.streamlit.io/develop/concepts/layout-and-style/customizing)
-- [Python `os` module](https://docs.python.org/3/library/os.html)
-- [Python `dotenv`](https://pypi.org/project/python-dotenv/)
-- [Pillow (PIL) for image handling](https://pillow.readthedocs.io/)
-- [GitHub Actions](https://docs.github.com/en/actions)
-- [LLaMA 3 Model (Groq)](https://www.groq.com/blog/llama3-now-available-on-groqcloud)
+- 🔷 [Streamlit Documentation](https://docs.streamlit.io/)
+- 🧠 [Groq API Reference](https://console.groq.com/docs)
+- 🎨 [CSS Styling dans Streamlit](https://docs.streamlit.io/develop/concepts/layout-and-style/customizing)
+- 🧰 [Python `os` module](https://docs.python.org/3/library/os.html)
+- 📦 [Python `dotenv`](https://pypi.org/project/python-dotenv/)
+- 📷 [Pillow (PIL) for image handling](https://pillow.readthedocs.io/)
+- 📜 [GitHub Actions](https://docs.github.com/en/actions)
+- 💡 [LLaMA 3 Model (Groq)](https://www.groq.com/blog/llama3-now-available-on-groqcloud)
 
 ---
 
 ### ✨ Exemple d’utilisation
 
->  **User** : « Que fais-tu en ce moment ? »  
->  **Bot** : « En ce moment, je travaille sur l’optimisation d’un robot suiveur de ligne basé sur STM32. »
+> 👤 **User** : « Que fais-tu en ce moment ? »  
+> 🤖 **Bot** : « En ce moment, je travaille sur l’optimisation d’un robot suiveur de ligne basé sur STM32. »
 
 ---
 
-### Profil dynamique
+### 🧠 Profil dynamique
 
 Le bot utilise le fichier `profile.json` pour adapter :
 
@@ -68,7 +89,7 @@ Le bot utilise le fichier `profile.json` pour adapter :
 
 ---
 
-###  Technologies
+### 🛠️ Technologies
 
 | Outil / Lib        | Usage                                 |
 |--------------------|----------------------------------------|
@@ -82,10 +103,10 @@ Le bot utilise le fichier `profile.json` pour adapter :
 
 ---
 
-### 👨 Auteur
+### 👨‍💻 Auteur
 
 **Ornel Rony DIFFO**  
 Étudiant en M1 à l’ESIEA, passionné par les systèmes embarqués, l’IA, la data et la supervision.
 
--  [LinkedIn](https://www.linkedin.com/in/ornel-rony-d-01737b267/)
--  [GitHub](https://github.com/tititaya)
+- 📎 [LinkedIn](https://www.linkedin.com/in/ornel-rony-d-01737b267/)
+- 💻 [GitHub](https://github.com/tititaya)
