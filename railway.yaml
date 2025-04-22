@@ -1,0 +1,6 @@
+services:
+  - name: ornelbot
+    startCommand: streamlit run app.py
+    envVars:
+      - key: GROQ_API_KEY
+        value: $GROQ_API_KEY
