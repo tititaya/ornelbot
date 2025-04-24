@@ -104,6 +104,6 @@ if submitted and user_input:
 st.markdown("""
 <hr style='margin-top: 50px;' />
 <p style='text-align: center; color: #888888; font-size: 0.85em;'>
-    ©2025 OrnelBot – On est ce qu’on veut.
+    ©2025 OrnelBot – On est ce qu’on veut --.
 </p>
 """, unsafe_allow_html=True)
